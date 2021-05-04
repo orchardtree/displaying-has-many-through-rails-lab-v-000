@@ -2,7 +2,7 @@ class Appointment < ApplicationRecord
   belongs_to :doctor
   belongs_to :patient
 
-  def appointment_doctor
+  def doctor_name
     self.doctor.name
   end
 end
