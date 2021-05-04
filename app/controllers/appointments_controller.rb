@@ -1,3 +1,3 @@
-class AppointmentController < ApplicationController
+class AppointmentsController < ApplicationController
 
 end
